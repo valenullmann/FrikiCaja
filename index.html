@@ -4,7 +4,7 @@
     <!-- Configuración básica del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantilla Visible - Belluccia 3</title>
+    <title>Frikicaja</title>
 
     <!-- Tipografía desde Google Fonts -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,10 +35,12 @@
     <!-- Ítems del menú -->
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Inicio</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Suscripciones</a></li>
         <li class="nav-item"><a class="nav-link" href="#">GeekSwap</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Ingresa</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Registrate</a></li>
       </ul>
     </div>
   </div>
@@ -46,7 +48,7 @@
 <!-- /NAVBAR -->
 
 <!-- HERO: Sección de portada con llamado a la acción -->
-<section class="section-spacing bg-cover bg-overlay-dark d-flex align-items-center" style="background-image: url('assets/Fondos/Fondo_Hero.png'); min-height: 100vh;">
+<section class="section-spacing bg-cover d-flex align-items-center" style="background-color: black; min-height: 100vh;">
   <div class="container">
     <div class="row align-items-center">
     <!-- Texto principal -->
@@ -58,13 +60,13 @@
       </h1>
       <p class="p-custom">La propuesta que estabas esperando...</p>
       <div class="d-flex gap-3 mt-4">
-        <a href="#" class="btn btn-dark">SUSCRIBITE!</a>
+        <a href="detalle.html" class="btn btn-dark">SUSCRIBITE!</a>
     
       </div>
     </div>
     <!-- Imagen destacada -->
     <div class="col-lg-6 text-center">
-      <img src="assets/images/Hero.png" class="img-fluid img-rounded" alt="Imagen Hero">
+      <img src="assets/images/Hero1.png" class="img-fluid img-rounded" alt="Imagen Hero">
     </div>
   </div>
 </section>
@@ -96,11 +98,11 @@
 </section>
 
 <!-- ABOUT: Sección sobre nosotros -->
-<section class="section-spacing bg-cover bg-overlay-dark text-white text-center" style="background-image: url('assets/Fondos/fondo_2.png');">
-  <div class="container">
+<section class="section-spacing bg-cover d-flex align-items-center" style="background-image: url('assets/Fondos/fondos\ index-01.png');">
+  <div class="container text-center">
     <h2 class="h2-custom text-uppercase-custom mb-4">¿Quiénes somos?</h2>
     <h5 class="h5-custom">FRIKICAJA</h5>
-    <p class="mt-3 mb-5">
+    <p class="p-custom mt-3 mb-5">
       En un rincón del multiverso, hay un lugar donde los fans no solo coleccionan… se conectan.<br>
       Por eso creamos la caja mensual que lleva tu fanatismo a otro nivel: figuras de edición<br>
       limitada, cómics con portadas imposibles de conseguir y merchandising que celebran lo<br>
@@ -114,292 +116,167 @@
 </section>
 <!-- /ABOUT -->
 
-<!-- SERVICES: Servicios o funcionalidades -->
-<section class="section-spacing container text-center">
-  <h2 class="h2-custom">¿Como funciona?</h2>
-  <p class="mb-5">Recibi tu caja mensual en 3 simples pasos!</p>
-  <div class="row">
-    <!-- Cada columna es una tarjeta de servicio -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 p-4">
-        <h5>PASO 1</h5>
-        <img src="https://imageplaceholder.net/100x100" class="mb-3" alt="Servicio">
-        <h5>Elegí tu plan</h5>
-        <p class="p-custom">Suscribite al plan que mejor se adapte a vos: Lite, Plus o Ultra. Cada uno incluye distintos ítems y beneficios.</p>
-      </div>
-    </div>
-    <!-- Cada columna es una tarjeta de servicio -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 p-4">
-       <h5>PASO 2</h5>
-        <img src="https://imageplaceholder.net/100x100" class="mb-3" alt="Servicio">
-        <h5>Recibí tu Frikicaja</h5>
-        <p class="p-custom">Cada mes llega directo a tu casa una caja con productos exclusivos: figuras, cómics, pines, pósters y más.</p>
-      </div>
-    </div>
-    <!-- Cada columna es una tarjeta de servicio -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 p-4">
-        <h5>PASO 3</h5>
-        <img src="https://imageplaceholder.net/100x100" class="mb-3" alt="Servicio">
-        <h5>Intercambiá en GeekSwap</h5>
-        <p class="p-custom">Ya lo tenes? No pasa nada, accedé a nuestro sistema de canje entre miembros y completá tu colección.</p>
-      </div>
-    </div>
-    <!-- ... repetir estructura para más servicios ... -->
-  </div>
-</section>
-<!-- /SERVICES -->
-
-<!-- SECCIÓN A: Texto centrado sin imagen -->
-<section class="section-spacing container text-center">
-  <h2 class="display-5" class="h2-custom">Título destacado</h2>
-  <p class="lead-custom">Un texto breve para explicar o presentar algo importante.</p>
-  <div class="mt-4 d-flex justify-content-center gap-3">
-    <a href="#" class="btn btn-primary">Acción principal</a>
-    <a href="#" class="btn btn-outline-primary">Acción secundaria</a>
-  </div>
-</section>
-
-<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
-<section class="section-spacing container text-center">
-  <h2 class="h2-custom">Nuestros planes</h2>
-  <p class="p-custom">Elegí el plan que mas se adapte a vos! Cada uno incluye diferentes beneficios pensados para vos.</p>
-  
-  <div class="row mt-5">
-    
-    <!-- Card: Plan Básico -->
-    <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100">
-        <!-- Título y precio -->
-        <h5 class="text-uppercase">Plan Básico</h5>
-        <p class="display-6 text-primary">$49.000 <small>/ mes</small></p>
-        
-        <!-- Imagen ilustrativa -->
-        <img src="https://imageplaceholder.net/300x200" class="img-fluid img-rounded my-3" alt="Plan Básico">
-
-        <!-- Descripción -->
-        <p class="p-custom">Perfecto para empezar.<br><strong>Incluye:</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
-          <li>✔ Acceso limitado a contenido</li>
-          <li>✔ Soporte básico</li>
-          <li>✔ Recursos descargables</li>
-          <li>✔ Actualizaciones mensuales</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
-      </div>
-    </div>
-
-    <!-- Card: Plan Pro (Recomendado) -->
-    <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100 border border-primary">
-        <!-- Título y precio -->
-        <h5 class="text-uppercase">Plan Pro <span class="badge bg-primary ms-2">Recomendado</span></h5>
-        <p class="display-6 text-primary">$55.000 <small>/ mes</small></p>
-        
-        <!-- Imagen ilustrativa -->
-        <img src="https://imageplaceholder.net/300x200" class="img-fluid img-rounded my-3" alt="Plan Pro">
-
-        <!-- Descripción -->
-        <p class="p-custom">Ideal para quienes buscan más.<br><strong>Incluye:</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
-          <li>✔ Todo lo del plan básico</li>
-          <li>✔ Soporte prioritario</li>
-          <li>✔ Acceso a workshops</li>
-          <li>✔ Herramientas premium</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
-      </div>
-    </div>
-
-    <!-- Card: Plan Full -->
-    <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100">
-        <!-- Título y precio -->
-        <h5 class="text-uppercase">Plan Full</h5>
-        <p class="display-6 text-primary">$60.000 <small>/ mes</small></p>
-        
-        <!-- Imagen ilustrativa -->
-        <img src="https://imageplaceholder.net/300x200" class="img-fluid img-rounded my-3" alt="Plan Full">
-
-        <!-- Descripción -->
-        <p class="p-custom">La experiencia completa.<br><strong>Incluye:</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
-          <li>✔ Todo lo del plan Pro</li>
-          <li>✔ Consultorías personalizadas</li>
-          <li>✔ Acceso anticipado a lanzamientos</li>
-          <li>✔ Certificados exclusivos</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- /PLANES DE SUSCRIPCIÓN -->
-
-<!-- SECCIÓN B: Imagen izquierda, texto derecha -->
-    <section class="section-spacing container text-center">
-      <h2 class="h2-custom">GEEKSWAP</h2>
-     <p class="p-custom">¿Como funciona?<section class="section-spacing container">
-  <div class="row align-items-center">
-    <!-- Columna de imagen -->
-    <div class="col-lg-6 text-center mb-4 mb-lg-0">
-      <img src="assets/images/GeekSwap-05.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
-    </div>
-    <!-- Columna de texto -->
-    <div class="col-lg-6">
-      <h2 class="h2-custom">Intercambiá. Completá. Coleccioná.</h2>
-      <p class="lead-custom">GeekSwap es el sistema de intercambio exclusivo para suscriptores de Frikicaja. Si te tocó un ítem repetido o querés conseguir esa figura que te falta, podés conectarte con otros fanáticos y canjear de forma segura dentro de la comunidad. Solo necesitás tu tarjeta de acceso incluida en cada caja. </p>
-    </div>
-  </div>
-</section>
-
-<!-- SECCIÓN C: Texto izquierda, imagen derecha -->
-<section class="section-spacing container">
-  <div class="row align-items-center">
-    <!-- Columna de texto -->
-    <div class="col-lg-6">
-      <h2 class="h2-custom">Descarga la app</h2>
-      <p class="lead-custom">Descarga la app de GeekSwap y tene acceso en cualquier lado para comunicarte con otros fanaticos y hacer el intercambio. Disponible en IOS y Android.</p>
-      <a href="#" class="btn btn-primary mt-3">Conocé más</a>
-    </div>
-    <!-- Columna de imagen -->
-    <div class="col-lg-6 text-center mt-4 mt-lg-0">
-      <img src="assets/images/GeekSwap-06.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
-    </div>
-  </div>
-</section>
-
-<!-- SECCIÓN E: Beneficios con íconos centrados (Bootstrap Icons) -->
-<section class="section-spacing container text-center py-5">
-  <h2 class="mb-5 text-uppercase fw-bold" class="h2-custom">Alto rendimiento, tecnología avanzada</h2>
-  <div class="row">
-    <!-- Beneficio 1 -->
-    <div class="col-md-4 mb-4">
-      <i class="bi bi-cpu-fill fs-1 mb-3 text-primary"></i>
-      <h5>Electrónica mejorada</h5>
-      <p class="p-custom">Nuestras baterías están diseñadas para durar más y brindar mayor eficiencia energética.</p>
-    </div>
-    <!-- Beneficio 2 -->
-    <div class="col-md-4 mb-4">
-      <i class="bi bi-person-check-fill fs-1 mb-3 text-primary"></i>
-      <h5>Diseño ergonómico</h5>
-      <p class="p-custom">Mayor comodidad en el uso prolongado sin comprometer el rendimiento.</p>
-    </div>
-    <!-- Beneficio 3 -->
-    <div class="col-md-4 mb-4">
-      <i class="bi bi-gear-fill fs-1 mb-3 text-primary"></i>
-      <h5>Motor optimizado</h5>
-      <p class="p-custom">Más potencia y velocidad para trabajar con eficiencia como nunca antes.</p>
-    </div>
-  </div>
-</section>
-
-<!-- SECCIÓN F: Beneficios sobre fondo de color con íconos de Bootstrap -->
-<section class="section-spacing text-center py-5">
-  <div class="container">
-    <h2 class="mb-5 text-uppercase fw-bold" class="h2-custom">Beneficios del producto</h2>
+<!-- SERVICES: Funcionamiento -->
+<section class="section-spacing bg-cover text-white" style="background-image: url('assets/Fondos/fondos\ index-02.png');">
+  <div class="container text-center">
+    <h6 class="h6-custom">¿Cómo funciona?</h6>
+    <p class="mb-5">Recibí tu caja mensual en 3 simples pasos!</p>
     <div class="row">
-      <!-- Ítem 1 -->
+      <!-- Paso 1 -->
       <div class="col-md-4 mb-4">
-        <i class="bi bi-speedometer2 fs-1 mb-3 text-dark"></i>
-        <h5>Velocidad</h5>
-        <p class="p-custom">Procesos más rápidos y eficientes gracias a nuestra tecnología.</p>
+        <div class="card h-100 p-4">
+          <h7 class="h7-custom">Paso 1</h7>
+          <img src="assets/Iconos/Icono-07.png" class="mb-3" alt="Servicio">
+          <h5>Elegí tu plan</h5>
+          <p>Suscribite al plan que mejor se adapte a vos: Lite, Plus o Ultra. Cada uno incluye distintos ítems y beneficios.</p>
+        </div>
       </div>
-      <!-- Ítem 2 -->
+      <!-- Paso 2 -->
       <div class="col-md-4 mb-4">
-        <i class="bi bi-battery-full fs-1 mb-3 text-dark"></i>
-        <h5>Durabilidad</h5>
-        <p class="p-custom">Componentes diseñados para resistir y durar en el tiempo.</p>
+        <div class="card h-100 p-4">
+          <h7 class="h7-custom">Paso 2</h7>
+          <img src="assets/Iconos/Icono-08.png" class="mb-3" alt="Servicio">
+          <h5>Recibí tu Frikicaja</h5>
+          <p>Cada mes llega directo a tu casa una caja con productos exclusivos: figuras, cómics, pines, pósters y más.</p>
+        </div>
       </div>
-      <!-- Ítem 3 -->
+      <!-- Paso 3 -->
       <div class="col-md-4 mb-4">
-        <i class="bi bi-tools fs-1 mb-3 text-dark"></i>
-        <h5>Mantenimiento simple</h5>
-        <p class="p-custom">Fácil de usar y mantener, ideal para cualquier usuario.</p>
+        <div class="card h-100 p-4">
+          <h7 class="h7-custom">Paso 3</h7>
+          <img src="assets/Iconos/Icono-09.png" class="mb-3" alt="Servicio">
+          <h5>Intercambiá en GeekSwap</h5>
+          <p>Ya lo tenés? No pasa nada, accedé a nuestro sistema de canje entre miembros y completá tu colección.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SECCIÓN G: Beneficios destacados en cards con íconos de Bootstrap -->
-<section class="section-spacing container text-center py-5">
-  <h2 class="mb-5 text-uppercase fw-bold" class="h2-custom">¿Por qué elegirnos?</h2>
-  <div class="row">
-    <!-- Card 1 -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 p-4 shadow-sm">
-        <i class="bi bi-truck fs-1 mb-3 text-primary"></i>
-        <h5>Entrega rápida</h5>
-        <p class="p-custom">Recibí tu producto en tiempo récord con envíos ágiles y seguros.</p>
+<!-- BENEFICIOS -->
+<section class="section-spacing text-white bg-cover" style="background-image: url('assets/Fondos/fondos\ index-03.png');">
+  <div class="container">
+    <h2 class="h2-custom text-uppercase-custom text-center mb-5">
+      CONOCÉ NUESTROS <span class="text-red">BENEFICIOS</span>
+    </h2>
+    
+    <div class="row align-items-center">
+      
+      <!-- Imagen a la izquierda -->
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="img/beneficios.png" alt="Beneficios" class="img-fluid rounded">
+        <!-- Cuando tengas la imagen real, reemplazá por: -->
+        <!-- <img src="img/beneficios.png" alt="Beneficios" class="img-fluid rounded"> -->
       </div>
-    </div>
-    <!-- Card 2 -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 p-4 shadow-sm">
-        <i class="bi bi-headset fs-1 mb-3 text-primary"></i>
-        <h5>Atención personalizada</h5>
-        <p class="p-custom">Te acompañamos en todo el proceso con soporte real y humano.</p>
+      
+      <!-- Beneficios a la derecha -->
+      <div class="col-md-7">
+        <div class="row gy-4">
+
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-check-circle-fill text-red me-3 fs-2"></i>
+            <div>
+              <h6 class="fw-bold text-red mb-2">Envíos internacionales</h6>
+              <p class="p-custom">Tenés la posibilidad de envío a cualquier parte del multiverso en el que estés!</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-check-circle-fill text-red me-3 fs-2"></i>
+            <div>
+              <h6 class="fw-bold text-red mb-1">10% descuento</h6>
+              <p class="p-custom">Descuento exclusivo en tiendas de cómics y gaming partners.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-check-circle-fill text-red me-3 fs-2"></i>
+            <div>
+              <h6 class="fw-bold text-red mb-1">Merch exclusivo</h6>
+              <p class="p-custom">Nuestros suscriptores reciben merch que no se consigue en ningún otro lado.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <i class="bi bi-check-circle-fill text-red me-3 fs-2"></i>
+            <div>
+              <h6 class="fw-bold text-red mb-1">GeekSwap acceso</h6>
+              <p class="p-custom">Sistema de intercambio de piezas entre suscriptores.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
+
     </div>
-    <!-- Card 3 -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 p-4 shadow-sm">
-        <i class="bi bi-shield-lock fs-1 mb-3 text-primary"></i>
-        <h5>Seguridad garantizada</h5>
-        <p class="p-custom">Tu información y tu compra protegidas en cada paso.</p>
+  </div>
+</section>
+
+<!-- PLANES DE SUSCRIPCIÓN con imagen fondo por card -->
+<section class="section-spacing bg-cover text-white text-center" style="background-image: url('assets/Fondos/fondos index-04.png');">
+  <div class="container">
+    <h2 class="h2-custom">Nuestros planes</h2>
+    <p class="p-custom mb-5">Elegí el plan que más se adapte a vos! Cada uno incluye diferentes beneficios pensados para vos.</p>
+
+    <div class="row g-4">
+
+      <!-- Plan Lite -->
+      <div class="col-md-4">
+        <div class="plan-img-card" style="background-image: url('assets/Cuadros/Plan1.png');">
+          <a href="#" class="btn btn-primary">Elegir Lite</a>
+        </div>
+      </div>
+
+      <!-- Plan Plus -->
+      <div class="col-md-4">
+        <div class="plan-img-card2 position-center" style="background-image: url('assets/Cuadros/Plan2.png');">
+          <a href="#" class="btn btn-primary">Elegir Plus</a>
+        </div>
+      </div>
+
+      <!-- Plan Full -->
+      <div class="col-md-4">
+        <div class="plan-img-card" style="background-image: url('assets/Cuadros/Plan3.png');">
+          <a href="#" class="btn btn-primary">Elegir Ultra</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MEDIOS DE PAGO -->
+<section class="bg-cover shadow-sm py-5" style="background-image: url('assets/Fondos/fondos\ index-05.png');">
+  <div class="mx-custom px-0 text-center">
+    <h6 class="h6-custom mb-3">Medios de pago</h6>
+    <p class="mb-5">Tarjetas de crédito/debito - Billeteras virtuales</p>
+    <div class="row justify-content-center align-items-center g-4">
+      <div class="col-6 col-md-2">
+        <img src="assets/Logos/Mediospago-05.png" alt="Marca 1" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="assets/Logos/Mediospago-01.png" alt="Marca 2" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="assets/Logos/Mediospago-03.png" alt="Marca 3" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="assets/Logos/Mediospago-06.png" alt="Marca 4" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="assets/Logos/Mediospago-02.png" alt="Marca 5" class="img-fluid brand-logo">
+      </div>
+      <div class="col-6 col-md-2">
+        <img src="assets/Logos/Mediospago-04.png" alt="Marca 6" class="img-fluid brand-logo">
       </div>
     </div>
   </div>
 </section>
 
-<!-- TESTIMONIALS: Opiniones de clientes -->
-<section class="section-spacing container text-center">
-  <h2 class="h2-custom">Testimonios</h2>
-  <p class="p-custom">Comentarios reales de usuarios para generar confianza.</p>
-  <div class="row">
-    <!-- Cada columna es un testimonio -->
-    <div class="col-md-4">
-      <blockquote class="blockquote p-4">
-        “Comentario de cliente.”
-        <footer class="blockquote-footer mt-3">Cliente 1</footer>
-      </blockquote>
-    </div>
-    <!-- Cada columna es un testimonio -->
-    <div class="col-md-4">
-      <blockquote class="blockquote p-4">
-        “Comentario de cliente.”
-        <footer class="blockquote-footer mt-3">Cliente 1</footer>
-      </blockquote>
-    </div>
-    <!-- Cada columna es un testimonio -->
-    <div class="col-md-4">
-      <blockquote class="blockquote p-4">
-        “Comentario de cliente.”
-        <footer class="blockquote-footer mt-3">Cliente 1</footer>
-      </blockquote>
-    </div>
-  </div>
-</section>
-<!-- /TESTIMONIALS -->
-
-<!-- GALERÍA A: Grid clásico de 3 columnas -->
-<section class="section-spacing container py-5 text-center">
-  <h2 class="h2-custom">Cajas anteriores</h2>
-  <p class="mb-5">Estos son algunos de los productos que vas a encontrar.</p>
+<!-- CAJAS ANTERIORES -->
+<section class="section-spacing container bg-cover py-5 text-center" style="background-image: url(assets/Fondos/fondos\ index-06.png);">
+  <h2 class="h2-custom mb-3">Cajas anteriores</h2>
+  <p class="p-custom mb-5">Estos son algunos de los productos que vas a encontrar.</p>
   <div class="row g-4">
     <div class="col-md-6"><img src="assets/Cuadros/fondo_productos_01.png" class="img-fluid img-rounded rounded" alt="Imagen 1"></div>
     <div class="col-md-6"><img src="assets/Cuadros/fondo_productos_02.png" class="img-fluid img-rounded rounded" alt="Imagen 2"></div>
@@ -408,106 +285,111 @@
   </div>
 </section>
 
-<!-- CTA: Llamado a la acción final -->
-<section class="section-spacing container text-center my-5">
-  <h2 class="h2-custom">¿Listo para empezar?</h2>
-  <p class="p-custom">Texto para motivar acción.</p>
-  <a href="#" class="btn btn-dark mt-4">Comenzá Ahora</a>
-</section>
-<!-- /CTA -->
-
-<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
-<section class="section-spacing container text-center">
-  <h2 class="h2-custom">Planes de Suscripción</h2>
-  <p class="p-custom">Elegí el plan que mejor se adapta a tus necesidades. Cada uno incluye diferentes beneficios pensados para vos.</p>
-  
-  <div class="row mt-5">
-    
-    <!-- Card: Plan Básico -->
-    <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100">
-        <!-- Título y precio -->
-        <h5 class="text-uppercase">Plan Básico</h5>
-        <p class="display-6 text-primary">$49.000 <small>/ mes</small></p>
-        
-        <!-- Imagen ilustrativa -->
-        <img src="https://imageplaceholder.net/300x200" class="img-fluid img-rounded my-3" alt="Plan Básico">
-
-        <!-- Descripción -->
-        <p class="p-custom">Perfecto para empezar.<br><strong>Incluye:</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
-          <li>✔ Acceso limitado a contenido</li>
-          <li>✔ Soporte básico</li>
-          <li>✔ Recursos descargables</li>
-          <li>✔ Actualizaciones mensuales</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
+<!-- GEEKSWAP QUE ES -->
+<section class="section-spacing bg-cover text-white text-center" style="background-image: url('assets/Fondos/fondos\ index-07.png');">
+  <div class="container">
+    <h2 class="h2-custom mb-3">GEEKSWAP</h2>
+    <p class="p-custom mb-5">¿Como funciona?</p>
+      <div class="row align-items-center">
+      <!-- Columna de imagen -->
+        <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <img src="assets/images/GeekSwap-05.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+        </div>
+        <!-- Columna de texto -->
+        <div class="col-lg-6 text-start">
+        <h2 class="h2-custom">Intercambiá. Completá. Coleccioná.</h2>
+        <p class="p2-custom">GeekSwap es el sistema de intercambio exclusivo para suscriptores de Frikicaja. Si te tocó un ítem repetido o querés conseguir esa figura que te falta, podés conectarte con otros fanáticos y canjear de forma segura dentro de la comunidad. Solo necesitás tu tarjeta de acceso incluida en cada caja. </p>
+        </div>
       </div>
-    </div>
 
-    <!-- Card: Plan Pro (Recomendado) -->
-    <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100 border border-primary">
-        <!-- Título y precio -->
-        <h5 class="text-uppercase">Plan Pro <span class="badge bg-primary ms-2">Recomendado</span></h5>
-        <p class="display-6 text-primary">$55.000 <small>/ mes</small></p>
-        
-        <!-- Imagen ilustrativa -->
-        <img src="https://imageplaceholder.net/300x200" class="img-fluid img-rounded my-3" alt="Plan Pro">
-
-        <!-- Descripción -->
-        <p class="p-custom">Ideal para quienes buscan más.<br><strong>Incluye:</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
-          <li>✔ Todo lo del plan básico</li>
-          <li>✔ Soporte prioritario</li>
-          <li>✔ Acceso a workshops</li>
-          <li>✔ Herramientas premium</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
+    <!-- GEEKSWAP APLICACION -->
+      <div class="row align-items-center mt-5">
+      <!-- Columna de texto -->
+        <div class="col-lg-6 text-start">
+          <h2 class="h2-custom">Descarga la app</h2>
+           <p class="p2-custom">Descarga la app de GeekSwap y tene acceso en cualquier lado para comunicarte con otros fanaticos y hacer el intercambio. Disponible en IOS y Android.</p>
+            <div class="d-flex gap-3 mt-4">
+              <a href="#" target="_blank">
+             <img src="assets/Logos/AppStore.png" alt="App Store" height="50">
+              </a>
+              <a href="#" target="_blank">
+              <img src="assets/Logos/GooglePlay.png" alt="Google Play" height="50">
+              </a>
+            </div>
+        </div>
+      <!-- Columna de imagen -->
+      <div class="col-lg-6 text-center mt-4 mt-lg-0">
+        <img src="assets/images/GeekSwap-06.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
       </div>
-    </div>
-
-    <!-- Card: Plan Full -->
-    <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100">
-        <!-- Título y precio -->
-        <h5 class="text-uppercase">Plan Full</h5>
-        <p class="display-6 text-primary">$60.000 <small>/ mes</small></p>
-        
-        <!-- Imagen ilustrativa -->
-        <img src="https://imageplaceholder.net/300x200" class="img-fluid img-rounded my-3" alt="Plan Full">
-
-        <!-- Descripción -->
-        <p class="p-custom">La experiencia completa.<br><strong>Incluye:</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-auto" style="max-width: 250px;">
-          <li>✔ Todo lo del plan Pro</li>
-          <li>✔ Consultorías personalizadas</li>
-          <li>✔ Acceso anticipado a lanzamientos</li>
-          <li>✔ Certificados exclusivos</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="#" class="btn btn-primary mt-3">Elegir plan</a>
-      </div>
-    </div>
-
   </div>
 </section>
-<!-- /PLANES DE SUSCRIPCIÓN -->
+
+<!-- TESTIMONIALS: Opiniones de clientes -->
+<section class="section-spacing bg-cover container text-center" style="background-image: url(assets/Fondos/fondos\ index-08.png);">
+  <h2 class="h2-custom mb-3">Testimonios</h2>
+  <p class="p-custom mb-4">Algunos comentarios de los miembros de la comunidad Friki</p>
+  <div class="row">
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4">
+      <blockquote class="blockquote p-4">
+        "Colecciono cómics hace años y esto es lo más cómodo y divertido que probé. 10/10."
+        <footer class="blockquote-footer text-white mt-3">Fede, Buenos Aires</footer>
+      </blockquote>
+    </div>
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4">
+      <blockquote class="blockquote p-4">
+        "GeekSwap me salvó. Ya había perdido la esperanza de tener el cómic de portada metalizada, y un usuario me lo cambió.
+        <footer class="blockquote-footer text-white mt-3">Leo, Mendoza</footer>
+      </blockquote>
+    </div>
+    <!-- Cada columna es un testimonio -->
+    <div class="col-md-4">
+      <blockquote class="blockquote p-4">
+        "Me encantó que venga con cosas de anime este mes. ¡El pack de stickers se lo pegué entero a la compu!
+        <footer class="blockquote-footer text-white mt-3">Malena, Rosario</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+<!-- /TESTIMONIALS -->
+
+<!-- CONTACTO -->
+<section class="section-spacing text-white text-center">
+  <div class="container">
+    <h2 class="h2-custom text-uppercase-custom mb-3">Formulario de Contacto</h2>
+    <p class="p-custom">Enviá un mensaje directamente desde la web.</p>
+
+    <div class="row align-items-start mt-5 text-start">
+
+      <!-- Imagen o bloque izquierdo -->
+      <div class="col-md-5 mb-4 mb-md-0">
+        <img src="assets/images/contacto.png" alt="Ilustración" class="img-fluid rounded">
+      </div>
+
+      <!-- Formulario -->
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+             <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Tu email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="6" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- NEWSLETTER -->
 <section class="section-spacing container text-center">
-  <h2 class="h2-custom">¿Querés enterarte de todas nuestras novedades?</h2>
+  <h2 class="h2-custom mb-3">¿Querés enterarte de todas nuestras novedades?</h2>
   <p class="p-custom">Suscribite a nuestro newsletter para enterarte de todo lo que está por venir.</p>
   <div class="row justify-content-center">
     <div class="col-md-8">
@@ -525,34 +407,12 @@
   </div>
 </section>
 
-<!-- CONTACT FORM: Formulario de contacto -->
-<section class="section-spacing container text-center">
-  <h2 class="h2-custom">Formulario de Contacto</h2>
-  <p class="p-custom">Envía un mensaje directamente desde la web.</p>
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <form>
-        <div class="mb-3">
-          <input type="text" class="form-control" placeholder="Tu nombre">
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" placeholder="Tu email">
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
-        </div>
-        <button type="submit" class="btn btn-dark w-100">Enviar Mensaje</button>
-      </form>
-    </div>
-  </div>
-</section>
-<!-- /CONTACT FORM -->
-
 <!-- FOOTER SIN FONDO Y CON MÁRGENES -->
 <footer class="footer-clean text-white pt-5 pb-3">
   <div class="mx-custom px-0">
     <div class="row text-start">
 
+     <hr class="border-secondary">
       <!-- Columna 1 -->
       <div class="col-md-3 mb-4">
         <h6 class="fw-bold">INICIO</h6>
@@ -588,8 +448,8 @@
       <!-- Columna 4 -->
       <div class="col-md-3 mb-4">
         <h6 class="text-uppercase">Contacto</h6>
-        <p class="small mt-3 mb-1"><strong>frikicajasoporte@gmail.com</strong></p>
-        <p class="small mb-3">+54 9 11234567</p>
+        <p class="p-custom small mt-3 mb-1"><strong>frikicajasoporte@gmail.com</strong></p>
+        <p class="p-custom small mb-3">+54 9 11234567</p>
         <div class="d-flex gap-3">
           <i class="bi bi-instagram footer-icon"></i>
           <i class="bi bi-facebook footer-icon"></i>
